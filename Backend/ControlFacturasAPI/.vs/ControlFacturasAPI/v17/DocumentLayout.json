@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|c:\\users\\lcirilo\\desktop\\control facturas\\backend\\controlfacturasapi\\controlfacturasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|solutionrelative:controlfacturasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|c:\\users\\lcirilo\\desktop\\control facturas\\backend\\controlfacturasapi\\controlfacturasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|solutionrelative:controlfacturasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|c:\\users\\lcirilo\\desktop\\control facturas\\backend\\controlfacturasapi\\controlfacturasapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|solutionrelative:controlfacturasapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|c:\\users\\lcirilo\\desktop\\control facturas\\backend\\controlfacturasapi\\controlfacturasapi\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|solutionrelative:controlfacturasapi\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|c:\\users\\lcirilo\\desktop\\control facturas\\backend\\controlfacturasapi\\controlfacturasapi\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|solutionrelative:controlfacturasapi\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|c:\\users\\lcirilo\\desktop\\control facturas\\backend\\controlfacturasapi\\controlfacturasapi\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A48962D-2F47-4B53-9EF8-A4FDBAF8570A}|ControlFacturasAPI\\ControlFacturasAPI.csproj|solutionrelative:controlfacturasapi\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ControlFacturasAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Program.cs",
+              "RelativeToolTip": "ControlFacturasAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T00:25:56.793Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "ControlFacturasAPI\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "ControlFacturasAPI\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T00:28:25.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ControlFacturasAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\appsettings.json",
+              "RelativeToolTip": "ControlFacturasAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T00:19:35.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ControlFacturasAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ControlFacturasAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T00:17:54.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetalleFactura.cs",
+              "DocumentMoniker": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Models\\DetalleFactura.cs",
+              "RelativeDocumentMoniker": "ControlFacturasAPI\\Models\\DetalleFactura.cs",
+              "ToolTip": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Models\\DetalleFactura.cs",
+              "RelativeToolTip": "ControlFacturasAPI\\Models\\DetalleFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T00:16:12.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "ControlFacturasAPI\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\LCirilo\\Desktop\\Control Facturas\\Backend\\ControlFacturasAPI\\ControlFacturasAPI\\Models\\Factura.cs",
+              "RelativeToolTip": "ControlFacturasAPI\\Models\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T00:15:27.855Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

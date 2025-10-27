@@ -1,0 +1,6 @@
+@ControlFacturasAPI_HostAddress = http://localhost:5159
+
+GET {{ControlFacturasAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

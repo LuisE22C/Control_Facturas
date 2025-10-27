@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Sistema web profesional para el control y gestión de facturas. Crea, consulta y genera reportes de facturas de manera eficiente.">
+    <meta name="keywords" content="facturas, control facturas, sistema facturación, gestión empresarial">
+    <meta name="author" content="Empresa XXXXXXXX">
+
+    <meta property="og:title" content="Sistema de Control de Facturas - Empresa XXXXXXXX">
+    <meta property="og:description"
+        content="Sistema web profesional para el control y gestión de facturas. Crea, consulta y genera reportes de manera eficiente.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sistema Control Facturas">
+
+
+    <!-- Favicon-->
+
+    <link rel="icon" href="images/favicon.ico">
+
+
+    <!-- Styles-->
+
+    <link rel="stylesheet" href="styles/main.css">
+
+          <!-- Librerías -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <title>Sistema de Control de Facturas</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Control de Facturas</h1>
+            <p>Empresa Patito S.A.</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('crear')">➕ Crear Factura</button>
+            <button class="tab" onclick="showTab('consultar')">Consultar Factura</button>
+            <button class="tab" onclick="showTab('reporte')">Reporte</button>
+        </div>
+
+        <div class="content">
+            <!-- TAB: CREAR FACTURA -->
+            <div id="tab-crear" class="tab-content active">
+                <h2>Crear Nueva Factura</h2>
+                <div id="alert-crear"></div>
+
+                <form id="form-crear" onsubmit="crearFactura(event)">
+                    <div class="form-group">
+                        <label>Número de Factura *</label>
+                        <input type="text" id="numeroFactura" required placeholder="Ej: FAC-001">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Fecha *</label>
+                        <input type="date" id="fecha" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Cliente *</label>
+                        <input type="text" id="cliente" required placeholder="Nombre del cliente">
+                    </div>
+
+                    <div class="detalles-container">
+                        <h3>Detalles de la Factura</h3>
+                        <div id="detalles-list"></div>
+                        <button type="button" class="btn btn-secondary" onclick="agregarDetalle()">+ Agregar
+                            Producto</button>
+                    </div>
+
+                    <div class="total-section">
+                        <h3>Total: Q <span id="total-display">0.00</span></h3>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">💾 Guardar Factura</button>
+                </form>
+            </div>
+
+            <!-- TAB: CONSULTAR FACTURA -->
+            <div id="tab-consultar" class="tab-content">
+                <h2>Consultar Factura</h2>
+                <div id="alert-consultar"></div>
+
+                <div class="search-section">
+                    <input type="text" id="buscar-numero" placeholder="Ingrese número de factura (Ej: FAC-001)">
+                    <button class="btn btn-primary" onclick="consultarFactura()">🔍 Buscar</button>
+                </div>
+
+                <div id="resultado-consulta"></div>
+            </div>
+
+            <!-- TAB: REPORTE -->
+            <div id="tab-reporte" class="tab-content">
+                <h2>Reporte de Facturas</h2>
+                <div id="alert-reporte"></div>
+
+                <div class="date-filters">
+                    <div class="form-group">
+                        <label>Fecha Inicio</label>
+                        <input type="date" id="fechaInicio">
+                    </div>
+                    <div class="form-group">
+                        <label>Fecha Fin</label>
+                        <input type="date" id="fechaFin">
+                    </div>
+                    <div style="align-self: end;">
+                        <button class="btn btn-primary" onclick="generarReporte()">Generar Reporte</button>
+                        <button class="btn btn-danger" onclick="descargarPDF()">⬇Descargar PDF</button>
+                    </div>
+                </div>
+
+                <div id="stats-reporte"></div>
+                <div id="resultado-reporte"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--footer begining  -->
+    <footer>
+        <div class="Social">
+            <a href="#" target="_blank"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
+            <a href="#" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+        </div>
+        <p>© 2025 🚀 Luis Cirilo Guatemala</p>
+        <p id="full"></p>
+        <p id="world-full"></p>
+        <p id="short"></p>
+        <p id="medium"></p>
+        <p id="year"></p>
+    </footer>
+    <!--footer ends -->
+
+
+
+    <!--Scripts-->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/getdate.js"></script>
+    <script src="scripts/consulta.js"></script>
+    <script src="scripts/report.js"></script>
+    <script src="scripts/factura.js"></script>
+
+
+  
+
+
+</body>
+
+</html>
